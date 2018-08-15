@@ -13,7 +13,7 @@ function deleteFromObjectByKey(object, key) {
 var myObj = new Object({});
 myobj.a = pastry;
 myobj.b = custard;
-delete.
+delete myobj.a;
 function destructivelyDeleteFromObjectbyKey(object, key) {
   
 }
