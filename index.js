@@ -15,5 +15,8 @@ myobj.a = pastry;
 myobj.b = custard;
 delete myobj.a;
 function destructivelyDeleteFromObjectbyKey(object, key) {
-  
+  var myObj = new Object({});
+myobj.a = pastry;
+myobj.b = custard;
+delete myobj.a;
 }
